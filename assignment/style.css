@@ -1,0 +1,61 @@
+/* Theme Name: Assignment
+Theme URI: 
+Author: Rokib
+Author URI: https://learnwith.hasan.com/
+Description: Our Hasan Vai Tutorial
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, education
+Text Domain: assignment 
+*/
+
+
+.main_menu{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.main_menu ul li{
+    float: left;
+    list-style-type: none;   
+}
+.main_menu ul li a{    
+    padding:12px 16px;    
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block; 
+    color: black;  
+    
+}
+.main_menu ul li a:hover{
+    background: #F8F9FA;
+}
+
+.bg{
+    background: orange;
+}
+.footer_menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer_menu ul li a{    
+     padding: 15px 0; 
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block; 
+    color: black;  
+    
+}
+
